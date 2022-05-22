@@ -54,7 +54,7 @@ the endpoint is ```/api/users/update``` with POST method.
 I tried to change the jwt ```username``` value to ```admin``` and use it as a cookie but it didn't work
 ![Ajwt](https://user-images.githubusercontent.com/43896992/169718032-ec4136af-3ede-4255-9404-4ff587bbdf96.png)
 
-then I tried to use it in the paswword resetting request and it didn't work too, it was a poor idea in the first place..
+then I tried to use it in the paswword resetting request and it didn't work too, it was a poor idea in the first place ..
 ![Fadmin](https://user-images.githubusercontent.com/43896992/169718195-cab5bb47-ced1-4786-b000-86a708c54d55.png)
 
 I found a parameter ```uid``` that have value ```100```.
@@ -64,6 +64,7 @@ So I changed the value of the ```uid``` to ```1``` and it fortunately worked
 ![adminspass](https://user-images.githubusercontent.com/43896992/169717743-9496fcfc-458d-4e6d-b8a2-768186821608.png)
 
 Then I logged with the new password in the ```/login``` page and I finally got the flag
-<sub>it was in the ```/admin``` page but it was unaccessable unless you're the admin</sub>
+
 ![flag](https://user-images.githubusercontent.com/43896992/169717857-c7672396-c9ed-48db-bb52-d2cf2062d701.png)
+<sub>it was in the ```/admin``` page but it was unaccessable unless you're the admin</sub>
 ### ```HTB{x55_4nd_id0rs_ar3_fun!!}```
