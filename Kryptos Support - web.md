@@ -37,7 +37,7 @@ The jar.txt file wasn't really useful because I already got the admin's cookies 
 
 **Cookies:**```session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vZGVyYXRvciIsInVpZCI6MTAwLCJpYXQiOjE2NTI4NzEzMjB9.iTg4YroMbHGEaFrDZH8k5t4m9hHPN2nEkRQW31HMrvs```
 
-it's a jwt, so I tried to to decode it in [jwt.io](https://jwt.io) and it turned out a moderator's cookie
+it's a jwt, so I tried to decode it in [jwt.io](https://jwt.io) and it turned out a moderator's cookie
 ![jwt io](https://user-images.githubusercontent.com/43896992/169716515-b5057b23-3770-4764-8359-10f67058d88a.png)
 
 I injected it and now I'm a moderator
