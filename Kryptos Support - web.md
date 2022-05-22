@@ -54,7 +54,7 @@ the endpoint is ```/api/users/update``` with POST method.
 I tried to change the jwt ```username``` value to ```admin``` and use it as a cookie but it didn't work
 ![Ajwt](https://user-images.githubusercontent.com/43896992/169718032-ec4136af-3ede-4255-9404-4ff587bbdf96.png)
 
-then I tried to use it in the paswword resetting request and it didn't word too, it was a poor idea in the first place..
+then I tried to use it in the paswword resetting request and it didn't work too, it was a poor idea in the first place..
 ![Fadmin](https://user-images.githubusercontent.com/43896992/169718195-cab5bb47-ced1-4786-b000-86a708c54d55.png)
 
 I found a parameter ```uid``` that have value ```100```.
