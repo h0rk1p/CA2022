@@ -1,5 +1,5 @@
 ## Description
-"The secret vault used by the Longhir's planet council. Kryptos. contains some very sensitive state secrets that Virgil and Ramona are after to prove the injustice performed by the commission. Ulysses performed an initial recon at their request and found a support portal for the vault. Can you take a look if you can infiltrate this system?"
+"The secret vault used by the Longhir's planet council, Kryptos, contains some very sensitive state secrets that Virgil and Ramona are after to prove the injustice performed by the commission. Ulysses performed an initial recon at their request and found a support portal for the vault. Can you take a look if you can infiltrate this system?"
 
 Since this is a web challenge so first thing I did is bruteforcing the directories with dirsearch
 ![dirs](https://user-images.githubusercontent.com/43896992/169715190-b00eb4de-88c4-4694-9639-41721f1d927b.png)
